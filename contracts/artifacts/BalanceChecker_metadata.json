@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "account",
+						"type": "address"
+					}
+				],
+				"name": "getBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/HelloWorld5.sol": "BalanceChecker"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/HelloWorld5.sol": {
+			"keccak256": "0xdcddadeb413006d8e8d056d0e1934f9ae5413a050b9361aa2657981701c8cdcd",
+			"urls": [
+				"bzz-raw://2369d4c842e517df86b4cf19db5b15a0d04f7d00a6f7a1e63eb78df56301dd1f",
+				"dweb:/ipfs/QmdjUDpQ6EQV7uy86SCx24c6ZZjFuYtKfBnkJSq8jWWxtr"
+			]
+		}
+	},
+	"version": 1
+}

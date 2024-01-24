@@ -1,0 +1,58 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "to",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "transferEther",
+				"outputs": [],
+				"payable": true,
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/HelloWorld5.sol": "EtherTransfer"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/HelloWorld5.sol": {
+			"keccak256": "0xa950da452a17864441762b6e4d54328300b9a75ab40eb054cf982ec23486f87a",
+			"urls": [
+				"bzz-raw://7b95698cf50cc9062869e67ad1160edda9bf1026ee351f334a8f8c980a6fd6f8",
+				"dweb:/ipfs/QmTo5dzobfiPAPvUBoPRjqveBfcq6KruVcNaYsPgMzReWT"
+			]
+		}
+	},
+	"version": 1
+}
